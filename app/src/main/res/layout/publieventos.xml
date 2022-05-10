@@ -28,4 +28,14 @@
         android:text="Participar"
         tools:layout_editor_absoluteX="144dp"
         tools:layout_editor_absoluteY="792dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="240dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
