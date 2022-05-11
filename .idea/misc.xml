@@ -6,6 +6,12 @@
         <entry key="..\:/Users/manue/AndroidStudioProjects/ProyectoDaise/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/manue/AndroidStudioProjects/ProyectoDaise/app/src/main/res/layout/eventos.xml" value="0.25" />
         <entry key="..\:/Users/manue/AndroidStudioProjects/ProyectoDaise/app/src/main/res/layout/publieventos.xml" value="0.1675929884566054" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1075" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1075" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/navigation_drawer.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/ln_mi_perfil"
+            android:title="@string/mi_Perfil"
+            android:checked="true" />
+        <item
+            android:id="@+id/ln_mensajes"
+            android:title="@string/mensajes"/>
+        <item
+            android:id="@+id/ln_amigos"
+            android:title="@string/amigos"/>
+        <item
+            android:id="@+id/ln_grupos"
+            android:title="@string/grupos"/>
+        <item
+            android:id="@+id/ln_tiendas"
+            android:title="@string/tiendas"/>
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/ln_configuracion"
+            android:title="@string/configuracion" />
+        <item
+            android:id="@+id/ln_soporte"
+            android:title="@string/soporte" />
+    </group>
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/log_out"
+            android:title="@string/log_out" />
+    </group>
+
+</menu>
