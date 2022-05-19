@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">Proyecto-Daise</string>
+    <string name="app_name">Dais</string>
+    <string name="correo">Correo</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="log_in">Iniciar sesion</string>
+    <string name="new_pass">Recuperar contraseña</string>
+    <string name="Inicio">Inicio</string>
+    <string name="Buscar">Buscar</string>
+    <string name="Eventos">Eventos</string>
+    <string name="mi_Perfil">Mi Perfil</string>
+    <string name="mensajes">Mis mensajes</string>
+    <string name="amigos">Mis amigos</string>
+    <string name="tiendas">Tiendas</string>
+    <string name="grupos">Mis grupos</string>
+    <string name="configuracion">Configuración</string>
+    <string name="soporte">Soporte</string>
+    <string name="log_out">Cerrar sesión</string>
+
 </resources>
