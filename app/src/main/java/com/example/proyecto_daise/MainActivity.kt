@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.editar_perfl)
         val user_name=findViewById<EditText>(R.id.user_name)
         val user_pass=findViewById<EditText>(R.id.user_pass)
         val new_pass=findViewById<TextView>(R.id.new_pass)

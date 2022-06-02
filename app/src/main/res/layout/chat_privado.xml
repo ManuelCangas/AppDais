@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        android:id="@+id/perfilview"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/chatbg"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/perfilimage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/perfilview"
+        app:layout_constraintLeft_toLeftOf="@+id/perfilview"
+        app:layout_constraintRight_toRightOf="@+id/perfilview"
+        app:layout_constraintTop_toTopOf="@+id/perfilview"
+        app:layout_constraintHorizontal_bias="0.05"/>
+
+    <TextView
+        android:id="@+id/perfilnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuario"
+        app:layout_constraintTop_toTopOf="@+id/perfilview"
+        app:layout_constraintBottom_toBottomOf="@+id/perfilview"
+        app:layout_constraintLeft_toRightOf="@+id/perfilimage"
+        app:layout_constraintRight_toRightOf="@+id/perfilview"
+        app:layout_constraintHorizontal_bias="0.1"/>
+
+
+    <View
+        android:id="@+id/chatbg"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/chattext"
+        app:layout_constraintTop_toBottomOf="@+id/perfilview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mensajes"
+        app:layout_constraintTop_toTopOf="@+id/chatbg"/>
+    <View
+        android:id="@+id/chattext"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        app:layout_constraintTop_toBottomOf="@+id/chatbg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

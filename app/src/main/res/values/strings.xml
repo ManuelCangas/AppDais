@@ -1,19 +1,40 @@
 <resources>
-    <string name="app_name">Dais</string>
+    <string name="title">Titulo y descripción para el evento</string>
+    <string name="description">Descripción</string>
+    <string name="participar">Participar</string>
+    <string name="app">Dais</string>
+    <string name="ed_publicacion">Editar publicación</string>
+    <string name="ed_perfil">Editar perfil</string>
+    <string name="ed_cuenta">Editar cuenta</string>
+    <string name="preferencias">Preferencias</string>
     <string name="correo">Correo</string>
-    <string name="contrase_a">Contraseña</string>
+    <string name="ed_correo">Editar correo</string>
+    <string name="ej_correo">nombre@correo.com</string>
+    <string name="constraseña">Contraseña</string>
+    <string name="ej_contraseña">*********</string>
+    <string name="ed_constraseña">Editar constraseña</string>
+    <string name="co_contraseña">Confirmar constraseña</string>
     <string name="log_in">Iniciar sesion</string>
     <string name="new_pass">Recuperar contraseña</string>
-    <string name="Inicio">Inicio</string>
-    <string name="Buscar">Buscar</string>
-    <string name="Eventos">Eventos</string>
-    <string name="mi_Perfil">Mi Perfil</string>
+    <string name="inicio">Inicio</string>
+    <string name="buscar">Buscar</string>
+    <string name="eventos">Eventos</string>
+    <string name="mi_perfil">Mi perfil</string>
     <string name="mensajes">Mis mensajes</string>
     <string name="amigos">Mis amigos</string>
     <string name="tiendas">Tiendas</string>
-    <string name="grupos">Mis grupos</string>
+    <string name="grupo">Mis grupos</string>
     <string name="configuracion">Configuración</string>
     <string name="soporte">Soporte</string>
     <string name="log_out">Cerrar sesión</string>
+    <string name="usuario">Nombre usuario</string>
+    <string name="usuario_tienda">Nombre tienda</string>
+    <string name="editar_oferta">Editar/Crear</string>
+    <string name="oferta">Ofertas</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="nombre">Nombre</string>
+    <string name="nombre_tienda">Nombre tienda</string>
+    <string name="apellido">Apellido</string>
+    <string name="rut_tienda">RUT Tienda</string>
 
 </resources>
